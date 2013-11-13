@@ -1,0 +1,9 @@
+{
+   
+   "shell_cmd": "cc '${file}'",
+   "variants": [
+      { "shell_cmd": "'${file}'",
+        "name": "Run",
+      }
+  ]
+}
