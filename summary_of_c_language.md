@@ -31,6 +31,12 @@ We also have _arrays_, _structures_ and _unions_ of these basic data types, _poi
   ```
   lower = 0;  upper = 300;  step = 20;
   ```
+- _loop_
+  - _for_
+  - _while_
+  
+  The choice between _while_ and _for_ is arbitrary, based on which seems clearer. The _for_ is usually appropriate for loops in which the initialization and increment are single statements and logically related, since it is more compact than _while_ and it keeps the loop control statements together in one place.
+  
 - end of list
 
 ## Conversion Characters for printf
