@@ -1,5 +1,11 @@
 Coding-Practice
 ===============
+Source:
+
+The C Programming Language
+
+Algorithms in C
+
 <http://www.careercup.com/page>
 
 <http://geeksforgeeks.org/forum/forum/interview-questions>
