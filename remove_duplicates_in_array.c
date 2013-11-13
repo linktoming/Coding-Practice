@@ -4,16 +4,23 @@
 // of the duplicates and the order. 
 // [@2, @1, @3, @1, @2] --> [@2, @1, @3]
 #include <stdio.h>
-int[] remove_duplicates_in_array (int[] number_array, int length){
-  return [2,1,3,1,2];
+#include <stdlib.h>
+int* remove_duplicates_in_array (int *number_array, int length){
+  int *result = (int *)malloc(5*sizeof(int));
+  result[0] = 2;
+  result[1] = 1;
+  result[2] = 3;
+  result[3] = 1;
+  result[4] = 2;
+  return result;
 }
 
 main(){
 
-  int number_array[] = [2,1,3,1,2];
-  int result_array[] = remove_duplicates_in_array(number_array,5);
+  int number_array[5] = {2,1,3,1,2};
+  int* result_array = remove_duplicates_in_array(number_array,5);
 
-  for (int i = 0; i < sizeof(result_array)/sizeof(result_array[0]); ++i){
+  for (int i = 0; i < 5; ++i){
 
     printf("%d\n", result_array[i] );
   }
