@@ -4,7 +4,7 @@
 // palindromes= a, b, b, a, bb, abba 
 // So the result is 6. 
 #include <stdio.h>
-int number_of_palindromes (char *word, int length){
+int number_of_palindromes_v1 (char *word, int length){
 
     int count = length;
 
@@ -27,9 +27,11 @@ int number_of_palindromes (char *word, int length){
 
     return count;
 }
+
 main (){
 
-  char word[] = "ababa";
-  int count = number_of_palindromes(word,5);
+  // char word[] = "ababa";
+  char word[] = "abaccdedf";
+  int count = number_of_palindromes_v1(word,9);
   printf("%d\n", count);
 }
