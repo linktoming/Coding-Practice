@@ -29,7 +29,9 @@ We also have _arrays_, _structures_ and _unions_ of these basic data types, _poi
 - _Assignment statements_: 
 
   ```
-  lower = 0;  upper = 300;  step = 20;
+  lower = 0;
+  upper = 300;
+  step = 20;
   ```
 - _loop_
   - _for_
@@ -44,7 +46,8 @@ We also have _arrays_, _structures_ and _unions_ of these basic data types, _poi
 | Conversion Character | Meaning |
 | :------------- | :------------- |
 | %d | print as decimal integer |
-| %6d | print as decimal integer, at least 6 characters wide || %f | print as floating point |
+| %6d | print as decimal integer, at least 6 characters wide |
+| %f | print as floating point |
 | %6f | print as floating point, at least 6 characters wide |
 | %.2f | print as floating point, 2 characters after decimal point |
 | %6.2f | ￼print as floating point, at least 6 wide and 2 after decimal poi |
@@ -57,6 +60,8 @@ We also have _arrays_, _structures_ and _unions_ of these basic data types, _poi
 
 ## Interesting Facts of C
 - > By the way, printf is not part of the C language; there is no input or output defined in C itself. printf is just a useful function from the standard library of functions that are normally accessible to C programs. The behaviour of printf is defined in the ANSI standard, however, so its properties should be the same with any compiler and library that conforms to the standard.
+- We cannot use array type as return type of a function, such as int[], but we can 
+use pointer to the array, such as int*.
 
 - end of list
 
